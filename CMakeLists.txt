@@ -14,7 +14,7 @@ file(GLOB_RECURSE DEPS_C "deps/*.c")
 
 add_executable(doorstep WIN32)
 
-target_sources(doorstep PRIVATE ${SOURCES} ${DEPS_C}) #"resources/common.rc"
+target_sources(doorstep PRIVATE ${SOURCES} ${DEPS_C} "resources/common.rc")
 
 target_include_directories(doorstep PRIVATE
     src

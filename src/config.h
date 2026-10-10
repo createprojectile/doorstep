@@ -12,6 +12,6 @@ namespace cfg
     constexpr wchar_t kGameAssemblyName[] = L"GameAssembly.dll";
     constexpr char kUnityMainExport[] = "UnityMain";
     constexpr char kIl2CppInitExport[] = "il2cpp_init";
-    constexpr bool kEnableLogging = true;
+    constexpr bool kEnableLogging = false;
     constexpr bool kContinueOnManagedFailure = true;
-}
+} // namespace cfg
